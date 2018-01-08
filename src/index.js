@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
+import RandomCat from './RandomCat';
 
-ReactDOM.render(<main>¡Hola, mundo!</main>, document.getElementById('root'));
+ReactDOM.render(<RandomCat />, document.getElementById('root'));
